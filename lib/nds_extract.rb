@@ -78,9 +78,10 @@ def gross_per_studio(collection)
 
   collection.each { |element|
 
-      studios[:studio] ? studios[:studio] << element : studios[:studio] = []
+    puts element
+      
    }
-   pp studios
+  studios
 end
 
 def movies_with_directors_set(source)
