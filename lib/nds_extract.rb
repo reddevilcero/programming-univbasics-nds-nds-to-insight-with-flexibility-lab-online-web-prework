@@ -56,7 +56,7 @@ def movies_with_director_key(name, movies_collection)
 
     array << {director_name: movie}
     }
-    puts array
+    puts name
   array
 end
 
