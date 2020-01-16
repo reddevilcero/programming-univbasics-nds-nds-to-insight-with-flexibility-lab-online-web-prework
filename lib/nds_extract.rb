@@ -52,7 +52,7 @@ def movies_with_director_key(name, movies_collection)
   array = []
 
   movies_collection.each { |movie|
-    
+
     array << {name: movie}
     }
   array
