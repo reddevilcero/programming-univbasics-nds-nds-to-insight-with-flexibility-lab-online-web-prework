@@ -78,7 +78,7 @@ def gross_per_studio(collection)
 
   collection.each { |element|
 
-      puts element
+      studios[:studio] ? studios[:studio] << eleemnt : studios[:studio] = []
    }
   studios
 end
