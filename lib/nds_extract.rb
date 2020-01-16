@@ -80,7 +80,6 @@ def gross_per_studio(collection)
 
     studio = movie[:studio]
 
-    p movie
 
     if studios[studio]
 
@@ -92,7 +91,7 @@ def gross_per_studio(collection)
     end
 
    }
-   puts studios
+   studios
 end
 
 def movies_with_directors_set(source)
