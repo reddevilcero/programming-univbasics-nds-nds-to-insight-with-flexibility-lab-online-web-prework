@@ -80,6 +80,10 @@ def gross_per_studio(collection)
 
     studio = movie[:studio]
 
+    Ternary expression
+
+    studios[studio] ? studios[stuido]+= movie[:worldwide_gross] : studios[studio] = movie[:worldwide_gross]
+
 
     if studios[studio]
 
