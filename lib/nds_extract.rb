@@ -39,7 +39,7 @@ end
 
 
 def movies_with_director_key(name, movies_collection)
-   pp movies_collection
+   
 end
 
 
