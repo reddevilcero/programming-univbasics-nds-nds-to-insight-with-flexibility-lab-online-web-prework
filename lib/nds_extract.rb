@@ -79,7 +79,7 @@ def gross_per_studio(collection)
   collection.each { |element|
 
     puts element
-      
+
    }
   studios
 end
