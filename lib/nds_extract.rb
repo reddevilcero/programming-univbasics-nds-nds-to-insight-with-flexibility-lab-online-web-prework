@@ -93,7 +93,7 @@ def movies_with_directors_set(source)
     }
 
     array
-  
+
 end
 
 # ----------------    End of Your Code Region --------------------
