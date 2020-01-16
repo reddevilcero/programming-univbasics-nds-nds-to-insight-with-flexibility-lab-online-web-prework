@@ -91,7 +91,7 @@ def movies_with_directors_set(source)
   source.each { |element|
 
     array << movies_with_director_key(element[:name], element[:movies])
-    
+
     }
 
     array
