@@ -85,11 +85,12 @@ def gross_per_studio(collection)
       studios[studio] << movie
 
     else
-      studios[studio] = 0
+      studios[studio] = []
 
     end
 
    }
+   puts studios
 end
 
 def movies_with_directors_set(source)
